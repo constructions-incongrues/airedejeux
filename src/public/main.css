@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Combat";
+    src: url("Combat.otf");
+}
+
+html, body {
+    font-family: "Combat";
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
