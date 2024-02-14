@@ -13,7 +13,8 @@ values:
   gitRepository: constructions-incongrues/airedejeux
   gitSha: '{{ .SHA }}'
   ingress:
-    annotations: {}
+    annotations:
+      cert-manager.io/cluster-issuer: "letsencrypt-prod"
     host: airedejeux-static.gimlet.tambouille.pastis-hosting.net
     path: /
     tlsEnabled: true
