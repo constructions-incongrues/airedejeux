@@ -1,0 +1,14 @@
+name: airedejeux
+configuration:
+    instances: 1
+    environment:
+        APP_ROOT: src
+        BP_WEB_SERVER: nginx
+    routes:
+        - airedejeux.papinettes.tambouille.pastis-hosting.net
+    appchart: standard
+origin:
+    path: /workspaces/airedejeux
+staging:
+    builder: paketobuildpacks/builder-jammy-base
+namespace: workspace
