@@ -7,7 +7,7 @@ chart:
   version: 0.64.0
 values:
   containerPort: 80
-  description: ""
+  description: L'optimisme nous bouscule hors de nous-même vers le monde
   documentation: ""
   gitRepository: constructions-incongrues/airedejeux
   gitSha: '{{ .SHA }}'
@@ -32,9 +32,9 @@ values:
       timeoutSeconds: 3
   logs: ""
   metrics: ""
-  name: ""
+  name: airedejeux
   ownerIm: ""
-  ownerName: ""
+  ownerName: trivoallan
   podAnnotations: {}
   podDisruptionBudgetEnabled: true
   podLabels: {}
