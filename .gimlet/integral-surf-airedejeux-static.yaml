@@ -8,13 +8,13 @@ chart:
 values:
   buildImage: node:latest
   buildScript: '###'
-  builtAssets: src/public
+  builtAssets: src/public/
   gitCloneUrl: https://github.com/constructions-incongrues/airedejeux.git
   gitRepository: constructions-incongrues/airedejeux
   gitSha: '{{ .SHA }}'
   ingress:
     annotations:
-      cert-manager.io/cluster-issuer: "letsencrypt-prod"
+      cert-manager.io/cluster-issuer: letsencrypt-prod
     host: airedejeux-static.gimlet.tambouille.pastis-hosting.net
     path: /
     tlsEnabled: true
