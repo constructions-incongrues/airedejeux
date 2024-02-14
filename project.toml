@@ -1,12 +1,8 @@
-[project]
-id = "org.ruedesgardes.airedejeux"
-name = "Aire de Jeux"
-version = "1.0.0"
+[_]
+schema-version = "0.2"
+id = "io.buildpacks.airedejeux"
+version = "0.1"
 
-[build]
-exclude = [
-    "README.md",
-]
-
-[[build.buildpacks]]
-uri = "paketo-buildpacks/nginx"
+[[io.buildpacks.group]]
+id = "paketo-buildpacks/nginx"
+version = "0.15.10"
