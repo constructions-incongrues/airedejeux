@@ -1,5 +1,0 @@
-[_]
-name = "airedejeux"
-
-[build]
-builder = "paketobuildpacks/builder-jammy-base"
